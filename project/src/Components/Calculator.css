@@ -6,23 +6,31 @@
     --color: #FF6363;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 button {
     width: 3em;
     height: 3em;
 
     border: none;
     border-radius: 2em;
-    margin: 0.3em;
+    margin: 0.5em;
 
     background-color: rgb(64, 223, 239);
-}
 
-button {
     cursor: pointer;
 }
 
 .wripper {
-    margin: 5em;    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+    margin: 8em;  
+    padding: 5em;  
+    
     background-color: rgb(255, 251, 231);
     border-radius: 1em;
 }
+
