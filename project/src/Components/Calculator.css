@@ -1,0 +1,28 @@
+:root {
+    --color: rgb(64, 223, 239) , #40DFEF;
+    --color: rgb(185, 248, 211) , #B9F8D3;
+    --color: rgb(255, 251, 231) , #FFFBE7;
+    --color: rgb(231, 142, 169) , #E78EA9;
+    --color: #FF6363;
+}
+
+button {
+    width: 3em;
+    height: 3em;
+
+    border: none;
+    border-radius: 2em;
+    margin: 0.3em;
+
+    background-color: rgb(64, 223, 239);
+}
+
+button {
+    cursor: pointer;
+}
+
+.wripper {
+    margin: 5em;    
+    background-color: rgb(255, 251, 231);
+    border-radius: 1em;
+}
