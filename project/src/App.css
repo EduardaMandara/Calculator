@@ -26,12 +26,39 @@ body {
     align-content: center;
     min-height: 80vh;
 
-    grid-template-columns: repeat(4, 3em);
-    grid-template-rows: minmax(80px auto) repeat(5, 3em);
+    grid-template-columns: repeat(4, 3rem);
+    grid-template-rows: minmax(80px auto) repeat(5, 3rem);
 }
 
 .calculator-grid button {
-    border-radius: 1rem;
+    border-radius: 7px;
     cursor: pointer;
+
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+
+    border: 1px solid white;
+    outline: none;
+
+    background-color: #fafafa80;
+
+    margin: 3px;
+}
+
+.calculator-grid button:hover {
+    background-color: #fafafa
+}
+
+.span-two {
+    grid-column: span 2;
+}
+
+.App .calculator-grid .output {
+    grid-column: 1 / -1;
+    margin-bottom: 20px;
+    background-color: #fafafa;
+    display: flex;
+
 }
 ;
